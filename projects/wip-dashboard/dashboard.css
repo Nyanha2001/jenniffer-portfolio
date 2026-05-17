@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b1220;
+    color: #e5e7eb;
+}
+
+/* Header */
+.header {
+    background: #111827;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #1f2937;
+}
+
+/* Mode banner */
+.banner {
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.banner.demo {
+    background: #facc15;
+    color: black;
+}
+
+.banner.real {
+    background: #22c55e;
+    color: black;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background: #1f2937;
+    padding: 12px;
+    font-size: 14px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #1f2937;
+    text-align: center;
+}
+
+tr:hover {
+    background: #111827;
+}
+
+/* Delta colors */
+.positive {
+    color: #22c55e;
+    font-weight: bold;
+}
+
+.negative {
+    color: #ef4444;
+    font-weight: bold;
+}
+
+/* Container */
+.container {
+    padding: 20px;
+}
