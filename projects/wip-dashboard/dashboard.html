@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WIP Dashboard | Jenniffer Teh</title>
+  <link rel="stylesheet" href="dashboard.css"/>
+</head>
+<body>
+
+<div id="loadingOverlay">⟳ &nbsp; LOADING DATA…</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-title">⬡ &nbsp; WIP PRODUCTION DASHBOARD &nbsp;·&nbsp; ERP + MES</div>
+  <div class="header-actions">
+    <button id="modeToggle" class="btn">⇄ Toggle Mode</button>
+    <button id="refreshBtn" class="btn btn-primary">↺ Refresh</button>
+  </div>
+</header>
+
+<!-- Mode banner -->
+<div id="modeBanner" class="banner demo">⚠ DEMO MODE — Simulated data</div>
+
+<!-- Main -->
+<main class="container">
+
+  <div id="errorMsg"></div>
+
+  <!-- Meta info -->
+  <div class="meta-bar">
+    <div class="shift-title" id="shiftTitle">Night Shift</div>
+    <div class="model-badge" id="modelBadge">Model: —</div>
+    <div class="wo-label"    id="woLabel">WO(s): —</div>
+  </div>
+  <div id="timestamp"></div>
+
+  <!-- Dashboard table (built by JS) -->
+  <div class="table-wrap">
+    <table id="dashTable"></table>
+  </div>
+
+</main>
+
+<script src="dashboard.js"></script>
+</body>
+</html>
